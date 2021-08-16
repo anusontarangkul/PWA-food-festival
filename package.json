@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack --watch",
+    "start:dev": "webpack serve",
     "build": "webpack"
   },
   "repository": {
@@ -21,11 +22,13 @@
   "homepage": "https://github.com/anusontarangkul/food-festival#readme",
   "devDependencies": {
     "webpack": "^5.50.0",
-    "webpack-cli": "^4.7.2"
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "bootstrap": "^5.1.0",
     "jquery": "^3.6.0",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "webpack-bundle-analyzer": "^4.4.2"
   }
 }
